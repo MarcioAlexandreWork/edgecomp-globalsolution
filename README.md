@@ -3,6 +3,11 @@
 # Fabio Apolinario 561828
 # Leonardo Lopes 562171
 
+Sitemas utilizando MQTT: https://wokwi.com/projects/447629406400712705
+
+Sistema uttilizando ThingSpeak: https://wokwi.com/projects/447504275092320257
+
+
 # Tema principal do projeto: TI verde e sustentabilidade
 
 O problema que é abordado e solucionado é  a administração de hortaliças, onde muitas não tem sistemas que monitaram fatores ambientais como a temperatura e humidade locais, que são fatores importantíssimos para o desenvolvimento de vegetais, 
