@@ -12,6 +12,7 @@ e logo depois irá parar, o sistema foi feito de forma simples, mas também pode
 
 Sobre o sistema:
 O sistema princípal é baseado em 5 itens: Um sensor DHT, um relógio RTC, leds coloridos, um piezo/buzzer e um micro-controlador ESP32
+
 <img width="856" height="539" alt="image" src="https://github.com/user-attachments/assets/ebc9a0c4-ea67-48f6-8026-00c73d108b17" />
 
 Como o sistema PRINCIPAL funciona: Primeiramente o sistema tenta se conectar à internet para que sejam feita as conexões MQTT ou HTTP, se ele não conectar, ele não irá funcionar e irá ficar tentando se reconectar o tempo inteiro, logo após a conexão, o sistema irá começar 
@@ -22,6 +23,7 @@ logo após esse processo, o sistema irá salvar todas as informações pegas e i
 O que impacta: Menor gasto desnecessário de água no planeta, além do monitoramento de sáude de plantas para que tenham a melhor qualidade possível, trazendo mais saúde às pessoas.
 
 Sobre como o MQTT funciona
+
 ![bevyblog96_banner](https://github.com/user-attachments/assets/1a921cbe-c7d2-4484-9a31-3c9756969bc9)
 
 O protocolo MQTT funciona da seguinte forma: O dispositivo IOT (ESP32 e outros) reune e pública informações na núvem MQTT, essas informações logo serão processadas sobre um IP público ou privado sobre uma porta em específico, logo depois as informações públidas após o processor da núvem são registradas em seus devídos tópicos.
@@ -30,6 +32,7 @@ O sistema MQTT pode ser mais utilizado para empresas de grandes ramos, as quais 
 Tópicos: O  nosso sistema utiliza apenas 3 tópicos, sendo eles o de humidade, temperatura e irrigação (Se os irrigadores estão ou não ligados).
 
 ThingSpeak:
+
 <img width="932" height="829" alt="image" src="https://github.com/user-attachments/assets/067430c2-de6c-499c-ad5e-8453f588b1d6" />
 O ThingSpeak tem um sistema e protocolo semelhante ao MQTT, com a diferença de ser menos complicado e mais simples de se manusear e monitorar já que ele automaticamente cria um dashboard,  
 é mais sugerido para que o ThingSpeak seja utilizado em empresas mais simples e pequenas, já que ele foi feito mais para pequenas coisas e pode registrar apenas valores matemáticos, como lojas pequenas monitorando a entrada e a saída de dinheiro em caixas ou monitoramento de casas para ver se tem algum movimento em suas casas 
