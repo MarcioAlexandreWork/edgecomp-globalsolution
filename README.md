@@ -34,5 +34,6 @@ Tópicos: O  nosso sistema utiliza apenas 3 tópicos, sendo eles o de humidade, 
 # ThingSpeak:
 
 <img width="856" height="492" alt="image" src="https://github.com/user-attachments/assets/fcc7fcc6-5411-4305-9eb0-914d8541e06f" />
+
 O ThingSpeak tem um sistema e protocolo semelhante ao MQTT, com a diferença de ser menos complicado e mais simples de se manusear e monitorar já que ele automaticamente cria um dashboard,  
 é mais sugerido para que o ThingSpeak seja utilizado em empresas mais simples e pequenas, já que ele foi feito mais para pequenas coisas e pode registrar apenas valores matemáticos, como lojas pequenas monitorando a entrada e a saída de dinheiro em caixas ou monitoramento de casas para ver se tem algum movimento em suas casas por questões de segurança.
