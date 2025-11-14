@@ -10,7 +10,7 @@ além do uso despreocupado de irrigadores d'agua os quais passam mais de 1 hora 
 solo que já está molhado e úmido em lama? Por isso o sistema que foi criado tem um relógio próprio o qual todo dia às 6 horas, o sistema verifica a humidade local e se tem mesmo necessidade de irrigar o local, se sim, o sistema ficará por um tempo irrigando o solo
 e logo depois irá parar, o sistema foi feito de forma simples, mas também poderíamos adicionar um tempo fixo de duração da irrigação, como uma hora.
 
-Sobre o sistema:
+# Sobre o sistema:
 O sistema princípal é baseado em 5 itens: Um sensor DHT, um relógio RTC, leds coloridos, um piezo/buzzer e um micro-controlador ESP32
 
 <img width="856" height="539" alt="image" src="https://github.com/user-attachments/assets/ebc9a0c4-ea67-48f6-8026-00c73d108b17" />
@@ -22,7 +22,7 @@ logo após esse processo, o sistema irá salvar todas as informações pegas e i
 
 O que impacta: Menor gasto desnecessário de água no planeta, além do monitoramento de sáude de plantas para que tenham a melhor qualidade possível, trazendo mais saúde às pessoas.
 
-Sobre como o MQTT funciona
+# Sobre como o MQTT funciona
 
 ![bevyblog96_banner](https://github.com/user-attachments/assets/1a921cbe-c7d2-4484-9a31-3c9756969bc9)
 
@@ -31,7 +31,7 @@ O sistema MQTT pode ser mais utilizado para empresas de grandes ramos, as quais 
 
 Tópicos: O  nosso sistema utiliza apenas 3 tópicos, sendo eles o de humidade, temperatura e irrigação (Se os irrigadores estão ou não ligados).
 
-ThingSpeak:
+# ThingSpeak:
 
 <img width="932" height="829" alt="image" src="https://github.com/user-attachments/assets/067430c2-de6c-499c-ad5e-8453f588b1d6" />
 O ThingSpeak tem um sistema e protocolo semelhante ao MQTT, com a diferença de ser menos complicado e mais simples de se manusear e monitorar já que ele automaticamente cria um dashboard,  
