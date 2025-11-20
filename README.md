@@ -11,9 +11,8 @@ Sistema uttilizando ThingSpeak: https://wokwi.com/projects/447504275092320257
 # Tema principal do projeto: TI verde e sustentabilidade
 
 O problema que é abordado e solucionado é  a administração de hortaliças, onde muitas não tem sistemas que monitaram fatores ambientais como a temperatura e humidade locais, que são fatores importantíssimos para o desenvolvimento de vegetais, 
-além do uso despreocupado de irrigadores d'agua os quais passam mais de 1 hora irrigando hortas gastando litros d'agua, o que não é um problema, mas e se não tivesse uma necessecidade de irrigar plantas? Por exemplo, se chovesse teria mesmo a necessidade de molhas a plantas assim tornando o 
-solo que já está molhado e úmido em lama? Por isso o sistema que foi criado tem um relógio próprio o qual todo dia às 6 horas, o sistema verifica a humidade local e se tem mesmo necessidade de irrigar o local, se sim, o sistema ficará por um tempo irrigando o solo
-e logo depois irá parar, o sistema foi feito de forma simples, mas também poderíamos adicionar um tempo fixo de duração da irrigação, como uma hora.
+além do uso despreocupado de irrigadores d'agua os quais passam mais de 1 hora irrigando hortas gastando litros d'agua, o que não é um problema, mas e se não tivesse uma necessecidade de irrigar plantas? Por exemplo, se chovesse teria mesmo a necessidade de molhar a plantação se o solo já está úmido o suifciente por conta da chuva? Por isso o sistema que foi criado tem um relógio próprio o qual todo dia às 6 horas, o sistema verifica a humidade local e se tem mesmo necessidade de irrigar o local, se sim, o sistema ficará por um tempo irrigando o solo
+e logo depois irá parar, o sistema foi feito de forma simples, mas também poderíamos adicionar um tempo fixo de duração da irrigação, como 1-2 horas, seria também interesante adicionar um leitor de pH do solo, que faz uma leitura todo dia de manhã para ver se o solo anda fértil o suficiente e se não precisa de ajuda de adubo e outras coisas.
 
 # Sobre o sistema:
 O sistema princípal é baseado em 5 itens: Um sensor DHT, um relógio RTC, leds coloridos, um piezo/buzzer e um micro-controlador ESP32
@@ -42,3 +41,5 @@ Tópicos: O  nosso sistema utiliza apenas 3 tópicos, sendo eles o de humidade, 
 
 O ThingSpeak tem um sistema e protocolo semelhante ao MQTT, com a diferença de ser menos complicado e mais simples de se manusear e monitorar já que ele automaticamente cria um dashboard,  
 é mais sugerido para que o ThingSpeak seja utilizado em empresas mais simples e pequenas, já que ele foi feito mais para pequenas coisas e pode registrar apenas valores matemáticos, como lojas pequenas monitorando a entrada e a saída de dinheiro em caixas ou monitoramento de casas para ver se tem algum movimento em suas casas por questões de segurança.
+
+# Vídeo do youtube: https://youtu.be/XLKyt8BZdJU?si=IyhD6VBRrR3R7PqH
